@@ -1,0 +1,186 @@
+   nav#menu ul {
+       list-style: none;
+       text-align: none;
+       margin-left: 20%;
+   }
+   
+   nav#menu li {
+       position: relative;
+       display: inline-block;
+       font-size: 20px;
+       margin-top: 8%;
+   }
+   
+   nav#menu {
+       position: absolute;
+       display: flex;
+       width: 1320px;
+       height: 130px;
+       background-color: #171616;
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+   
+   nav#menu li :hover {
+       background-color: rgba(255, 255, 255, .1)
+   }
+   
+   nav#menu a {
+       text-decoration: none;
+       color: #fff;
+       padding: 35px;
+   }
+   
+   #container {
+       margin-left: 5%;
+       background: #cec8c8;
+       width: 1320px;
+   }
+   
+   #container1 {
+       background: #292626;
+       margin-left: -5%;
+       width: 1320px;
+   }
+   
+   #frase {
+       font-weight: bold;
+       font-size: 45px;
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       color: #fff;
+       text-align: right;
+       margin-right: 175px;
+   }
+   
+   #conteudo {
+       display: inline;
+       height: 500px;
+       width: 1320px
+   }
+   
+   #caixa_botao {
+       position: relative;
+       width: 20px;
+       height: 20px;
+       margin-left: 4%;
+       margin-top: -1%;
+   }
+   
+   #foto3 {
+       margin-left: 200px;
+       background-color: aqua;
+   }
+   
+   #container_planos {
+       display: flex;
+       flex-direction: column;
+       width: 1320px;
+       height: 500px;
+       margin-top: 30px;
+   }
+   
+   #titulo_plano {
+       display: flex;
+       color: #fff;
+       justify-content: center;
+       margin-top: 3.5%;
+       font-size: 50px;
+   }
+   
+   #subtitulo {
+       display: flex;
+       color: #fff;
+       justify-content: center;
+       font-size: 38px;
+       margin-top: 1%;
+   }
+   
+   #caixa_botao_profissional {
+       position: relative;
+       width: 850px;
+       height: 113px;
+       margin-top: 5%;
+       margin-left: 20%;
+   }
+   
+   #botao_profissional {
+       position: relative;
+   }
+   
+   #botao_cliente {
+       position: relative;
+       margin-left: 25%;
+   }
+   
+   #rodapé {
+       background: #545454;
+       width: 1320px;
+       height: 200px;
+   }
+   
+   footer#rodape ul {
+       list-style: none;
+       margin-top: 1%;
+   }
+   
+   footer#rodape li {
+       display: inline-block;
+       font-size: 20px;
+       padding: 20px;
+       color: #fff;
+   }
+   
+   footer#rodape li:hover {
+       background-color: rgba(255, 255, 255, .1)
+   }
+   
+   footer#rodape li:hover {
+       color: black;
+   }
+   
+   #container1 {
+       display: grid;
+       grid-template-areas: 'cabecalho' 'banner' 'frase' 'conteudo' 'container_planos' 'rodape';
+   }
+   
+   #cabecalho {
+       grid-area: cabecalho;
+   }
+   
+   #banner {
+       grid-area: banner;
+       margin-top: 9%;
+   }
+   
+   #frase {
+       grid-area: frase;
+   }
+   
+   #conteudo {
+       grid-area: conteudo;
+   }
+   
+   #container_planos {
+       grid-area: container_planos;
+   }
+   
+   #rodape {
+       grid-area: rodape;
+   }
+   
+   #logo {
+       position: relative;
+       top: -20px;
+       margin-left: 10%;
+   }
+   
+   #icones {
+       display: flex;
+       justify-content: space-between;
+       margin-left: 80%;
+       width: 200px;
+       margin-bottom: 2%;
+   }
+   
+   .container-cadastro{
+    width: 900px;
+   }

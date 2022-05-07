@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang=”pt-br” xmlns:th="http://thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+
+    <meta charset="utf-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>| SpiralFit |</title>
+
+    <!-- Bootstrap -->
+    
+<!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    
+   <link rel="stylesheet" href="_css/estilo_spiral.css">
+    
+    <link rel="stylesheet" href="javascript/spiral.js">
+
+</head>
+
+<body>
+
+   
+
+              <div id="container1">
+        <header id="cabecalho">
+
+            <nav id="menu">
+                <a href="index.html"><img id="logo" src="_imagem/logo-spiral-redm.png" alt=""></a>
+
+                <ul>
+
+                    <li><a href="quem_somos.html">Quem Somos</a></li>
+                    <li><a href="funciona.html">Como Funciona</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="login.html">Login</a></li>
+
+                </ul>
+            </nav>
+
+    </header>
+    </div>
+
+
+
+    <div class="container-cadastro">
+
+        <h1>Cadastrar Profissional</h1>
+
+        <br>
+
+        <form method="post">
+
+
+            <div class="form-group">
+                <label for=""><b>Nome da empresa/Profissional:</b> </label> <input type="text" class="form-control" value="" placeholder="Insira o nome da empresa..." name="" required> <small class="form-text text-muted"><i>*
+						Utilize o nome fantasia.</i></small>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for=""><b>CNPJ:</b></label><input type="number" value="" name="" class="form-control" placeholder="Insira o CNPJ..." required /> <small class="form-text text-muted"><i>* Utilize
+								somente números.</i></small>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <label for=""><b>E-mail:</b> </label> <input type="text" value="" name="" class="form-control" placeholder="email@email.com" required />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for=""><b>Telefone:</b></label><input type="number" value="" name="" class="form-control" placeholder="Insira o telefone de contato..." required /> <small class="form-text text-muted"><i>* Formato
+								(xx) xxxxx-xxxx.</i></small>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label for=""><b>Responsável:</b></label><input type="number" value="" name="" class="form-control" placeholder="Insira o nome do(a) responsável..." required /> <small class="form-text text-muted"><i>* Preencha com o nome para contato (Gerente, Diretor, RH
+								etc.)
+								da empresa.</i></small>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <button type="submit" class="btn btn-success">Adicionar Empresa</button>
+
+        </form>
+
+    </div>
+
+
+   
+
+   
+
+
+    
+
+
+</body>
+
+</html>
